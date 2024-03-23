@@ -1,2 +1,34 @@
 # WEEK 1 - C
 ------------
+
+* Welcome!
+----------
+learn how to solve problems WITH FUNCTIONS
+learn how to solve problems WITH VARIABLES
+learn how to solve problems WITH CONDITIONALS
+learn how to solve problems WITH LOOPS
+
+learn how not so solve problems
+
+#include <stdio.h>
+
+int main(void)
+{
+	printf("hello, world\n");
+}
+
+. source code ---> This is what humans write.
+. machine code ---> This is what computers understand.
+
+	input -> [     ] -> output
+
+	source code -> [ compiler ] -> machine code
+
+. Compiler --> Program that translate one language to another.
+
+. Code can be evaluated upon three axes.
+	- Correctness: Does the code run as intended?
+	- Design: How well is the code designed?
+	- Style: How aesthetically pleasing and consistent is the code?
+
+
