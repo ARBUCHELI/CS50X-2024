@@ -111,7 +111,60 @@ string
 * Conditionals
 --------------
 
+. Example:
+----------
+if (x < y)
+{
+	printf("x is less than y\n"); ---> In this course we are going to style our code like this (with the curly braces in a next line).
+}
 
+If we only have a single line of code, we can ommit the curly braces.
+
+
+. Example:
+----------
+if (x < y)
+{
+	printf("x is less than y\n");
+}
+else
+{
+	printf("x is not less than y\n");
+}
+
+
+. Example:
+----------
+if (x < y)
+{
+	printf("x is less than y\n");
+}
+else if (X > y)
+{
+	printf("x is greter than y\n");
+}
+else if (x == y) ---> Notice that we use double equal == instead of = for comparison
+{
+	printf("x is equal to y\n");
+}
+
+From the design point of view the las example is not well designed.  We can do:
+
+. Example:
+----------
+if (x < y)
+{
+	printf("x is less than y\n");
+}
+else if (X > y)
+{
+	printf("x is greter than y\n");
+}
+else {
+	printf("x is equal to y\n");
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
