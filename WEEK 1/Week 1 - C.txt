@@ -33,4 +33,132 @@ int main(void)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Hello World
+-------------
+cs50.dev
+
+code hello.c ---> open or create a new file
+make hello   ---> compile
+./hello      ---> to run the code
+
+In C, by convention, always name the files in lowercase, never use spaces.
+
+	arguments -> [ function ] -> side effects
+
+" " --> C requires double quotes in the strings.
+; --> semicolon is always needed in C.
+
+#include <stdio.h> ---> Declaration for telling the compiler that use the library stdio.h ---> 
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+
+* Libraries
+-----------
+Code that someone else wrote.
+
+* Manual Pages
+--------------
+Documentation.
+
+manual.cs50.io
+
+cs50.h ---> Library used in CS.50 for making things easier to students.
+
+* Function
+----------
+Is the implementation in code of an algorithm.
+
+get_string() ---> CS50 is analogous to ask in scratch (This is property of cs50.h).
+
+answer = get_string("What's your name? ")
+
+string answer = get_string("What's your name? ");
+
+printf("hello, %s\n", answer);
+		    |
+		    |------------------------> This comma, is for separation of arguments. 	
+
+%s ---> placeholder for strings.
+
+other types of data:
+
+bool
+char
+double
+float
+int
+long
+string
+...
+
+* format codes
+--------------
+%c
+
+%f
+
+%i ---> We use this for integers
+
+%li
+
+%s
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Conditionals
+--------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
