@@ -178,6 +178,77 @@ counter++;
 counter -= 1;
 counter --;
 
+compare.c
+---------
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("What's x? ");
+    int y = get_int("What's y? ");
+
+    if (x < y)
+    {
+        printf("x is less than y\n");
+    }
+}
+
+compare.c
+---------
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("What's x? ");
+    int y = get_int("What's y? ");
+
+    if (x < y)
+    {
+        printf("x is less than y\n");
+    }
+    else if (x > y) {
+        printf("x is greater than y\n");
+    }
+    else {
+        printf("x is equal to y\n");
+    }
+}
+
+C IS A VERY VULNERABLE LANGUAGE BY DEFAULT.  C IS A VERY DANGEROUS LANGUAGE, BECAUSE IT TRUST THAT THE HUMANS ARE DOING WHAT THE LANGUAGE IS ASKING THEM TO DO.
+
+A LOT OF TODAY'S SOFTWARE THAT IS BEING HACKED IN SOME WAYS IS USING C OR C++.
+
+char
+----
+A data type that represents a single character. 
+
+In C, when you use strings, you have to use double quotes.
+
+In C, when you use chars, you have to use single quotes.
+
+agree.c
+-------
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    char c = get_char("Do you agree? ");
+
+    if (c == 'y' || c == 'Y')
+    {
+        printf("Agreed!\n");
+    }
+    else if (c == 'n' || c == 'N')
+    {
+        printf("Not agreed.\n");
+    }
+}
+
+
+
 
 
 
