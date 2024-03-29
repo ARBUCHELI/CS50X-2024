@@ -247,6 +247,54 @@ int main(void)
     }
 }
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Loops
+-------
+
+* while
+-------
+int counter = 3 --> Defining a variable
+while (counter > 0)
+{
+	printf("meow\n");
+	counter = counter - 1;
+}
+
+int i = 3 
+while (i > 0)
+{
+	printf("meow\n");
+	i = i - 1;
+}
+
+int i = 3;
+while (i > 0)
+{
+	printf("meow\n");
+	i--;
+}
+
+* for
+-----
+for (int i = 0; i < 3; i++)
+{
+	printf("meow\n");
+}
+
+It is common to eliminate the curly braces if we only have one line of code within the for loop
+
+for (int i = 0; i < 3; i++)
+	printf("meow\n");
+
+
+
+
+
+
+
+
+
 
 
 
